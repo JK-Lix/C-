@@ -1,0 +1,67 @@
+Queue
+Stack
+String
+Hash_Map
+Unordered_Map
+
+
+
+
+Queue类     队列
+	头文件：queue
+	命名空间：std
+	声明：queue<data_type> q;
+
+	q.front()	查看队首元素
+	q,empty()	队列判空
+	q.push()	入队列
+	q.pop()		出队列
+	q.size()	队列长度
+
+
+Stack类     栈
+	头文件stack
+	命名空间std
+	声明：stack<data_type> s;
+
+	s.front()	查看栈顶元素
+	s.empty()	栈判空
+	s.push()	入栈
+	s.pop()		出栈
+	s.size()	栈大小
+
+
+String类    字符串
+	头文件：string
+	命名空间：std
+	声明：string s1, s2;
+	
+	s1 == s2 	判等
+	s1 < s2 	字典序小于
+	s1 > s2 	字典序大于
+	s1 += s2 	字符串连接
+	s1.length()	字符串长度
+
+
+Hash_Map类   哈希表
+	头文件：<hash_map>/<ext/hash_map>
+	命名空间：_gnu_cxx;
+	声明：hash_map<key_type, value_type, hash_func> h;
+	
+	h.find(key) 	判断某个key值是否在hash_map中
+	h[key] = value  讲value存储在key位上
+	h[key]    	访问key值对应的value
+	h.begin() 	哈希表的起始位置
+	h.end()   	哈希表的结束位置
+
+
+Unordered_Map类  字符串(C11标准) 下标可以任意类型
+	头文件：unoederd_map
+	命名空间：std
+	声明：unordered_map<key_type, value_type, hash_func> h;
+
+	h.find(key) 	判断某个key值是否在umordered_map中
+	h[key] = value  讲value存储在key位上
+	h[key]    	访问key值对应的value
+	h.begin() 	哈希表的起始位置
+	h.end()   	哈希表的结束位置
